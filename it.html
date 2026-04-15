@@ -44,6 +44,32 @@
       padding: 24px 16px 48px;
     }
 
+    .langbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .langbar a,
+    .langbar span {
+      display: inline-block;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--primary);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .langbar span.active {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+    }
+
     .hero {
       background: var(--primary);
       color: #ffffff;
@@ -127,6 +153,14 @@
 </head>
 <body>
   <main class="wrap">
+    <nav class="langbar" aria-label="Selezione lingua">
+      <span class="active">Italiano</span>
+      <a href="./index.html">English</a>
+      <a href="./es.html">Español</a>
+      <a href="./fr.html">Français</a>
+      <a href="./de.html">Deutsch</a>
+    </nav>
+
     <section class="hero">
       <h1>Privacy Policy – Planova</h1>
       <p>Ultimo aggiornamento: 01.05.2026</p>
