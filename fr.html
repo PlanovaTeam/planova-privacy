@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Planova – Politique de Confidentialité</title>
+  <meta
+    name="description"
+    content="Politique de confidentialité officielle de Planova."
+  />
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --surface: #ffffff;
+      --text: #1b2430;
+      --muted: #5b6573;
+      --primary: #051547;
+      --border: #d9e1ec;
+      --maxw: 900px;
+      --radius: 16px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    .wrap {
+      width: 100%;
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+
+    .langbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .langbar a,
+    .langbar span {
+      display: inline-block;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--primary);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .langbar span.active {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+    }
+
+    .hero {
+      background: var(--primary);
+      color: #ffffff;
+      border-radius: 20px;
+      padding: 28px 22px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      margin: 0 0 10px;
+      font-size: 32px;
+      line-height: 1.15;
+    }
+
+    .hero p {
+      margin: 0;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 16px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px 20px;
+      margin-bottom: 16px;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 21px;
+      color: var(--primary);
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .contact {
+      font-weight: bold;
+      word-break: break-word;
+    }
+
+    .footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 24px;
+    }
+
+    @media (max-width: 640px) {
+      .hero h1 { font-size: 27px; }
+      .hero p, p, li { font-size: 15px; }
+      h2 { font-size: 19px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <nav class="langbar">
+      <a href="./index.html">Italiano</a>
+      <a href="./en.html">English</a>
+      <a href="./es.html">Español</a>
+      <span class="active">Français</span>
+      <a href="./de.html">Deutsch</a>
+    </nav>
+
+    <section class="hero">
+      <h1>Politique de Confidentialité – Planova</h1>
+      <p>Dernière mise à jour : 01.05.2026</p>
+    </section>
+
+    <section class="card">
+      <p>
+        Planova est une application de planification opérationnelle conçue pour
+        fonctionner sans infrastructure serveur propriétaire. Les données
+        générées par l’application restent sur l’appareil de l’utilisateur,
+        sauf dans les cas nécessaires au fonctionnement des fonctionnalités
+        demandées.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>1. Données personnelles</h2>
+      <p>
+        Planova ne nécessite pas la création d’un compte et ne collecte pas
+        directement de données personnelles identifiables telles que le nom,
+        l’adresse e-mail ou les contacts.
+      </p>
+      <p>
+        Les achats intégrés sont gérés exclusivement par Apple App Store et
+        Google Play Store selon leurs propres conditions.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>2. Utilisation de la localisation</h2>
+      <p>Planova peut demander l’accès à la localisation de l’appareil.</p>
+      <p>
+        La localisation est utilisée uniquement pour fournir des prévisions
+        météorologiques locales dans l’application.
+      </p>
+      <p>
+        Les coordonnées peuvent être transmises à des services météo externes
+        pour obtenir ces prévisions.
+      </p>
+      <p>
+        La localisation n’est pas utilisée à des fins de suivi, de profilage ou
+        de publicité.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>3. Localisation des activités</h2>
+      <p>Les activités peuvent être associées à une position géographique.</p>
+      <p>Les coordonnées proviennent de :</p>
+      <ul>
+        <li>services de cartographie</li>
+        <li>géocodage ou géocodage inverse</li>
+      </ul>
+      <p>
+        Ces informations sont utilisées uniquement pour le contexte
+        opérationnel et l’analyse des conditions environnementales.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>4. Services externes</h2>
+      <p>Planova interagit avec :</p>
+      <ul>
+        <li>services météorologiques</li>
+        <li>services de géolocalisation</li>
+      </ul>
+      <p>
+        Ces services peuvent recevoir des coordonnées ou données nécessaires
+        à la résolution des localisations.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>5. Accès au calendrier</h2>
+      <p>
+        Planova peut demander l’accès aux calendriers de l’appareil.
+      </p>
+      <p>
+        Si autorisé, l’app peut créer et lire des événements.
+      </p>
+      <p>
+        La gestion et la synchronisation sont sous la responsabilité de
+        l’utilisateur.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>6. Stockage des données</h2>
+      <p>
+        Toutes les données sont stockées uniquement sur l’appareil.
+      </p>
+      <p>
+        Aucun serveur propriétaire n’est utilisé.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>7. Transfert de données</h2>
+      <p>Planova ne vend ni ne partage de données personnelles.</p>
+      <ul>
+        <li>données météo</li>
+        <li>géocodage</li>
+        <li>calendriers</li>
+        <li>exportations utilisateur</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>8. Services tiers</h2>
+      <p>
+        Interaction directe avec services météo et localisation, indirecte avec
+        calendriers et paiements.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>9. Contrôle utilisateur</h2>
+      <ul>
+        <li>désactiver la localisation</li>
+        <li>gérer les permissions calendrier</li>
+        <li>désinstaller l’app</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>10. Contact</h2>
+      <p class="contact">planova@bluewin.ch</p>
+    </section>
+
+    <div class="footer">
+      Planova – Politique de Confidentialité
+    </div>
+  </main>
+</body>
+</html>
