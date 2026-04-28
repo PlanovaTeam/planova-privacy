@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Planova – 隐私政策</title>
+  <meta
+    name="description"
+    content="Planova 官方隐私政策。"
+  />
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --surface: #ffffff;
+      --text: #1b2430;
+      --muted: #5b6573;
+      --primary: #051547;
+      --border: #d9e1ec;
+      --maxw: 900px;
+      --radius: 16px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    .wrap {
+      width: 100%;
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+
+    .langbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .langbar a,
+    .langbar span {
+      display: inline-block;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--primary);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .langbar span.active {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+    }
+
+    .hero {
+      background: var(--primary);
+      color: #ffffff;
+      border-radius: 20px;
+      padding: 28px 22px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      margin: 0 0 10px;
+      font-size: 32px;
+      line-height: 1.15;
+    }
+
+    .hero p {
+      margin: 0;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 16px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px 20px;
+      margin-bottom: 16px;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 21px;
+      color: var(--primary);
+    }
+
+    p { margin: 0 0 12px; }
+
+    p:last-child,
+    ul:last-child { margin-bottom: 0; }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li { margin-bottom: 8px; }
+
+    .contact {
+      font-weight: bold;
+      word-break: break-word;
+    }
+
+    .footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 24px;
+    }
+
+    @media (max-width: 640px) {
+      .hero h1 { font-size: 27px; }
+      .hero p, p, li { font-size: 15px; }
+      h2 { font-size: 19px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <nav class="langbar" aria-label="Language selection">
+  <a href="./it.html">意大利语</a>
+  <a href="./en.html">英语</a>
+  <a href="./es.html">西班牙语</a>
+  <a href="./fr.html">法语</a>
+  <a href="./de.html">德语</a>
+  <span class="active">中文</span>
+    </nav>
+
+    <section class="hero">
+      <h1>隐私政策 – Planova</h1>
+      <p>最后更新：01.05.2026</p>
+    </section>
+
+    <section class="card">
+      <p>
+        Planova 是一款无需专有服务器基础设施即可运行的操作规划应用程序。应用生成的数据保留在用户设备上，除非为实现所请求功能所必需。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>1. 个人数据</h2>
+      <p>
+        Planova 不需要创建账户，也不会直接收集姓名、电子邮件地址或联系人等个人身份信息。
+      </p>
+      <p>
+        应用内购买完全由 Apple App Store 和 Google Play Store 根据各自条款处理。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>2. 设备位置的使用</h2>
+      <p>Planova 可能会请求访问设备位置。</p>
+      <p>该位置仅用于在应用内提供本地天气预报。</p>
+      <p>为获取天气预报，地理坐标可能会传输至外部天气服务。</p>
+      <p>位置不会用于跟踪、用户画像或广告目的。</p>
+    </section>
+
+    <section class="card">
+      <h2>3. 活动位置数据</h2>
+      <p>计划的活动可能与地理位置相关联。</p>
+      <p>应用使用的坐标来源于：</p>
+      <ul>
+        <li>通过地图服务选择</li>
+        <li>地理编码或反向地理编码过程</li>
+      </ul>
+      <p>
+        这些信息仅用于确定活动的运行环境并处理环境条件。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>4. 外部服务</h2>
+      <p>
+        为实现功能，Planova 会直接与外部服务交互，包括：
+      </p>
+      <ul>
+        <li>天气服务，用于获取预报数据</li>
+        <li>地理编码和定位服务，用于管理坐标</li>
+      </ul>
+      <p>
+        向这些服务发送的请求可能包含地理坐标或解析位置所需的信息。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>5. 日历访问</h2>
+      <p>
+        Planova 可能会请求访问设备上的日历。
+      </p>
+      <p>
+        在获得授权后，应用可以创建和读取事件以表示计划活动。
+      </p>
+      <p>
+        日历管理、同步和共享完全通过用户选择的服务进行，并由用户负责。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>6. 数据存储</h2>
+      <p>
+        所有应用数据（包括活动和设置）仅存储在用户设备上。
+      </p>
+      <p>
+        Planova 不使用自身服务器来存储或处理这些数据。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>7. 数据传输</h2>
+      <p>Planova 不出售或共享个人数据。</p>
+      <p>仅在以下情况下可能发生数据传输：</p>
+      <ul>
+        <li>请求天气数据</li>
+        <li>使用地理编码服务</li>
+        <li>访问设备日历</li>
+        <li>用户发起的数据导出</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>8. 第三方服务</h2>
+      <p>Planova 可能会：</p>
+      <ul>
+        <li>直接连接天气和定位服务</li>
+        <li>间接连接日历服务和支付系统（Apple / Google）</li>
+      </ul>
+      <p>
+        这些服务按照各自的条款和隐私政策运行。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>9. 用户控制</h2>
+      <p>用户可以随时：</p>
+      <ul>
+        <li>通过设备设置关闭位置访问</li>
+        <li>通过操作系统管理日历权限</li>
+        <li>通过卸载应用删除数据</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>10. 联系方式</h2>
+      <p>有关隐私问题：</p>
+      <p class="contact">planova@bluewin.ch</p>
+    </section>
+
+    <div class="footer">
+      Planova – 隐私政策
+    </div>
+  </main>
+</body>
+</html>
